@@ -4,9 +4,9 @@
     "json-server": "0.17.4"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./public/styles/app.css && json-server --watch db.json --config json-server.json",
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/styles/app.css && json-server --watch db.json --config ./json-server.json",
     "dev": "npx tailwindcss -i ./src/input.css -o ./public/styles/app.css --watch",
-    "start": "json-server --watch db.json --config json-server.json",
-    "preview": "npm run build"
+    "start": "json-server --watch db.json --config ./json-server.json",
+    "preview": "npm run build && npm run start"
   }
 }

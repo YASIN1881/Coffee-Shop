@@ -1,12 +1,56 @@
 {
-    "products": [
-        { "id": 1, "name": "Espresso", "price": 3.99, "category": "Hot Coffee" },
-        { "id": 2, "name": "Cappuccino", "price": 4.99, "category": "Hot Coffee" },
-        { "id": 3, "name": "Latte", "price": 4.49, "category": "Hot Coffee" }
+    "home": {
+      "title": "Welcome to the Homepage",
+      "description": "This is the main landing page",
+      "features": [
+        "Feature 1",
+        "Feature 2",
+        "Feature 3"
+      ]
+    },
+    "about": {
+      "title": "About Us",
+      "content": "Learn more about our company",
+      "team": [
+        {
+          "id": 1,
+          "name": "John Doe",
+          "role": "CEO"
+        },
+        {
+          "id": 2,
+          "name": "Jane Smith",
+          "role": "CTO"
+        }
+      ]
+    },
+    "services": [
+      {
+        "id": 1,
+        "name": "Service 1",
+        "description": "Description of service 1"
+      },
+      {
+        "id": 2,
+        "name": "Service 2",
+        "description": "Description of service 2"
+      }
     ],
-    "categories": [
-        { "id": 1, "name": "Hot Coffee" },
-        { "id": 2, "name": "Cold Coffee" },
-        { "id": 3, "name": "Desserts" }
+    "contact": {
+      "email": "contact@example.com",
+      "phone": "+1 234 567 890",
+      "address": "123 Main St, City, Country"
+    },
+    "blog": [
+      {
+        "id": 1,
+        "title": "First Blog Post",
+        "content": "Content of first blog post"
+      },
+      {
+        "id": 2,
+        "title": "Second Blog Post",
+        "content": "Content of second blog post"
+      }
     ]
-} 
+  }
