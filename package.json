@@ -4,9 +4,9 @@
     "tailwindcss": "^3.3.5"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./public/styles/app.css && serve public -s",
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/styles/app.css && serve public -p 3005",
     "dev": "npx tailwindcss -i ./src/input.css -o ./public/styles/app.css --watch",
-    "start": "serve public -s",
+    "start": "serve public -s -l 3005",
     "preview": "npm run build"
   }
 }
