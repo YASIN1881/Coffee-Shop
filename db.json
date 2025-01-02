@@ -1,0 +1,12 @@
+{
+    "products": [
+        { "id": 1, "name": "Espresso", "price": 3.99, "category": "Hot Coffee" },
+        { "id": 2, "name": "Cappuccino", "price": 4.99, "category": "Hot Coffee" },
+        { "id": 3, "name": "Latte", "price": 4.49, "category": "Hot Coffee" }
+    ],
+    "categories": [
+        { "id": 1, "name": "Hot Coffee" },
+        { "id": 2, "name": "Cold Coffee" },
+        { "id": 3, "name": "Desserts" }
+    ]
+} 
