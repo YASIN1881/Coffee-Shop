@@ -1,11 +1,10 @@
 {
   "devDependencies": {
-    "serve": "^14.2.4",
     "tailwindcss": "^3.3.5",
     "json-server": "0.17.4"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./public/styles/app.css && serve public -p 3005",
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/styles/app.css && json-server --watch db.json --config json-server.json",
     "dev": "npx tailwindcss -i ./src/input.css -o ./public/styles/app.css --watch",
     "start": "json-server --watch db.json --config json-server.json",
     "preview": "npm run build"
